@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.428 s <<< FAILURE! - in TestSuite
+com.crm.qa.testcases.HomePageTest.verifyTitle  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [Cogmento CRM1] but found [Cogmento CRM]
+	at com.crm.qa.testcases.HomePageTest.verifyTitle(HomePageTest.java:41)
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13749" started-at="2021-12-30T19:10:53 IST" finished-at="2021-12-30T19:11:06 IST">
+    <groups>
+      <group name="abc">
+        <method signature="LoginPageTest.validatePageTitle()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@64f6106c]" name="validatePageTitle" class="com.crm.qa.testcases.LoginPageTest"/>
+      </group> <!-- abc -->
+    </groups>
+    <test name="Test" duration-ms="13749" started-at="2021-12-30T19:10:53 IST" finished-at="2021-12-30T19:11:06 IST">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@64f6106c]" name="setup" is-config="true" duration-ms="12213" started-at="2021-12-30T19:10:53 IST" finished-at="2021-12-30T19:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@64f6106c]" name="validatePageTitle" duration-ms="182" started-at="2021-12-30T19:11:05 IST" finished-at="2021-12-30T19:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@64f6106c]" name="teardown" is-config="true" duration-ms="1280" started-at="2021-12-30T19:11:05 IST" finished-at="2021-12-30T19:11:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

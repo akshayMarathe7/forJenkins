@@ -78,5 +78,6 @@ public class HomePageTest extends TestBase {
 	public void teardown() {
 	//	utildriver.highLighterMethod(driver, ele);
 		driver.quit();
+		
 	}
 }

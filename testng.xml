@@ -10,17 +10,6 @@
 
 
 	<test name="Test">
-	
-	<parameter name="userName" value="para" />
-	<parameter name="Password" value="abc" />
-		<groups>
-			<run>
-				<include name="abc" />
-
-			</run>
-
-		</groups>
-
 
 		<classes>
 

@@ -41,12 +41,12 @@ public class LoginPageTest extends TestBase {
 
 	}
 
-	@Parameters({ "userName", "Password" })
+//	@Parameters({ "userName", "Password" })
 	@Test(priority = 1, groups = { "test" })
 	public void loginTest(String userName, String Password) throws InterruptedException {
 
-//		logindriver.login(prop.getProperty("username"), prop.getProperty("password"));
-		logindriver.login(userName, Password);
+		logindriver.login(prop.getProperty("username"), prop.getProperty("password"));
+//		logindriver.login(userName, Password);
 
 		System.out.println("Srcond LoginPageTest");
 
